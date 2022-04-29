@@ -1,0 +1,114 @@
+/* TODO: inserite il CSS necessario per completare il MHW! */
+.choice-grid{
+    align-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.choice-grid div{
+    width: calc(32.5% - 20px);    
+    background-color: #f4f4f4;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.choice-grid div img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+@media (max-width: 700px){
+    article{
+        width: 95%;
+    }
+    header div{
+        display: none;
+    }
+}
+@media (max-width: 500px){
+    .choice-grid div{
+        width: calc(49% - 20px); 
+    }
+}
+
+.opacita{
+    opacity: 0.6;
+}
+
+.choice-grid div.coloresfondo{
+    background-color: #cfe3ff;
+}   
+
+.hidden{
+    display: none;
+}
+
+form{
+    font-size: 17px;
+    margin: 13px 40px;
+}
+
+#ricetta-view{
+    margin-top: 10px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#ricetta-view .ric{
+    display: flex;
+    flex-direction: column;
+}
+
+#ricetta-view span{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    max-width: 300px;
+}
+
+#ricetta-view img{
+    margin-bottom: 20px;
+}
+
+#ricetta-view p{
+    max-width: 300px;
+    margin: 0;
+}
+
+header #spot{
+    margin-top: 28px;
+    margin-right: 50px;
+}
+
+
+header #spot img{
+    width: 30px;
+    height: 30px;
+}
+
+#spotify-view .spot{
+    display: flex;
+    flex-direction: row;
+}
+
+#spotify-view span{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    max-width: 300px;
+}
+
+#spotify-view img{
+    width: 250px;
+    height: 250px;
+    margin-top: 35px;
+    margin-left: 60px;
+}
+
+#spotify-view img:hover{
+    border: 5px solid yellow;
+}
+
